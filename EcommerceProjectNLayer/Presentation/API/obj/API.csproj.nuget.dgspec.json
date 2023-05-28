@@ -1,0 +1,347 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/API.csproj": {}
+  },
+  "projects": {
+    "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/Business.csproj",
+        "packagesPath": "/Users/hilalakgul/.nuget/packages/",
+        "outputPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hilalakgul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Core/DAL/DAL.csproj": {
+                "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Core/DAL/DAL.csproj"
+              },
+              "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/Dtos.csproj": {
+                "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/Dtos.csproj"
+              },
+              "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Entities/Entities.csproj": {
+                "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Core/DAL/DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Core/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Core/DAL/DAL.csproj",
+        "packagesPath": "/Users/hilalakgul/.nuget/packages/",
+        "outputPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Core/DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hilalakgul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Entities/Entities.csproj": {
+                "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/API.csproj",
+        "packagesPath": "/Users/hilalakgul/.nuget/packages/",
+        "outputPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hilalakgul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/Business.csproj": {
+                "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/Dtos.csproj",
+        "projectName": "Dtos",
+        "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/Dtos.csproj",
+        "packagesPath": "/Users/hilalakgul/.nuget/packages/",
+        "outputPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hilalakgul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Entities/Entities.csproj",
+        "packagesPath": "/Users/hilalakgul/.nuget/packages/",
+        "outputPath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hilalakgul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

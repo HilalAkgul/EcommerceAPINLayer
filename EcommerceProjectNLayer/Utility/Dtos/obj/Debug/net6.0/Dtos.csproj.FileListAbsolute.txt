@@ -1,0 +1,12 @@
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/bin/Debug/net6.0/Dtos.deps.json
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/bin/Debug/net6.0/Dtos.dll
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/bin/Debug/net6.0/Dtos.pdb
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/Dtos.csproj.AssemblyReference.cache
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/Dtos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/Dtos.AssemblyInfoInputs.cache
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/Dtos.AssemblyInfo.cs
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/Dtos.csproj.CoreCompileInputs.cache
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/Dtos.dll
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/refint/Dtos.dll
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/Dtos.pdb
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Utility/Dtos/obj/Debug/net6.0/ref/Dtos.dll
