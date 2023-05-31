@@ -14,9 +14,11 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Middleware\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Middleware\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Business\Business\Business.csproj">

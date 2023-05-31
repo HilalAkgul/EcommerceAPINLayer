@@ -4,6 +4,7 @@ using Business.Dtos;
 using DAL.Base;
 using DAL.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Utility;
 
 namespace Business.Product
 {
@@ -17,17 +18,33 @@ namespace Business.Product
             this.repository = repository;
         }
 
-        public List<Entities.Product> CartList(int userId)
+        public Result<List<Entities.Product>> CartList(int userId)
         {
-            var list = repository.Queryable().Include(x=>x.Carts).Where(x => x.Carts.Count>0)
-                .ToList();
-            return list;
+            try
+            {
+                var list = repository.Queryable().Include(x => x.Carts).Where(x => x.Carts.Count > 0)
+                                .ToList();
+                return new Result<List<Entities.Product>>(list,true);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            
         }
-        public List<ProductListDto> List()
+        public Result<List<ProductListDto>> List()
         {
-            var productList = repository.List();
-            var list = mapper.Map<List<ProductListDto>>(productList);
-            return list;
+            try
+            {
+                var productList = repository.List();
+                var list = mapper.Map<List<ProductListDto>>(productList);
+                return new Result<List<ProductListDto>>(list, true);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            
         }
     }
 }

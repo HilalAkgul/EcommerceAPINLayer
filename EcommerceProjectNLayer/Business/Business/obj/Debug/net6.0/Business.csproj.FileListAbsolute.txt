@@ -19,3 +19,5 @@
 /Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/obj/Debug/net6.0/Business.pdb
 /Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/obj/Debug/net6.0/Business.genruntimeconfig.cache
 /Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/obj/Debug/net6.0/ref/Business.dll
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/bin/Debug/net6.0/Utility.dll
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/bin/Debug/net6.0/Utility.pdb

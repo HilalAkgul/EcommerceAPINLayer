@@ -1,6 +1,7 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
 using Business.User;
-
+using Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -17,10 +18,12 @@ namespace API.Controllers
         }
         [HttpPost]
         [Route("Login")]
-        public IActionResult Login(string userName, string password)
+        public IActionResult Login(LoginDto dto)
         {
-            var userId = userService.Login(userName, password);
-            return Ok(new { userId });
+            throw new ApplicationException("Invalid Token");
+
+            var result = userService.Login(dto.userName, dto.password);
+            return Ok(result);
         }
 
     }

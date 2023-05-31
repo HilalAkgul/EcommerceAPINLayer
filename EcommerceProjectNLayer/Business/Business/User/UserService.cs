@@ -3,6 +3,7 @@ using AutoMapper;
 using Business.Dtos;
 using DAL.Base;
 using DAL.Repositories;
+using Utility;
 
 namespace Business.User
 {
@@ -15,11 +16,19 @@ namespace Business.User
             this.mapper = mapper;
             this.repository = repository;
         }
-        public int Login(string username,string password)
+        public  Result<int> Login(string username,string password)
         {
-            var user = repository.List().Where(x => x.UserName == username && x.Password == password).FirstOrDefault();
+            try
+            {
+                var user = repository.List().Where(x => x.UserName == username && x.Password == password).FirstOrDefault();
+                return user != null?new Result<int>(user.Id, true): new Result<int>(false,"Kullanıcı adı veya şifre yanlış");
 
-            return user == null ? 0:user.Id ;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+           
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hSPG5/49ZxmbxCHTk9q6n7dO0W9Zq60Efhn1cp8DRz7J6FWrgap0aQVzTiPCWiV6z4UVwY79Bprpj8JKkq9P9Q==",
+  "dgSpecHash": "wT12d1qp396U2CDo8NmcTBcyMQ+GrQXEyzp0oWKNJH8lmU1GV37CB4giIsON1UpNzOWzNvZ52+ZD8NykRMcOdA==",
   "success": true,
   "projectFilePath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/API.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,8 @@
     "/Users/hilalakgul/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/Users/hilalakgul/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/hilalakgul/.nuget/packages/serilog/2.12.0/serilog.2.12.0.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

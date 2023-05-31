@@ -4,6 +4,7 @@ using Business.Dtos;
 using DAL.Base;
 using DAL.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Utility;
 
 namespace Business.Cart
 {
@@ -16,35 +17,67 @@ namespace Business.Cart
             this.mapper = mapper;
             this.repository = repository;
         }
-        public bool AddCart(int productId,int userId)
+        public Result<bool> AddCart(int productId,int userId)
         {
-             repository.Add(new Entities.Cart
+            try
             {
-                ProductId=productId,
-                UserId=userId
-            });
-           
-            return true;
+                repository.Add(new Entities.Cart
+                {
+                    ProductId = productId,
+                    UserId = userId
+                });
+
+                return new Result<bool>(true,true);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
         }
-        public int CartCount(int userId)
+        public Result<int> CartCount(int userId)
         {
-            var list = repository.List().Where(x => x.UserId == userId).ToList();
-            return list.Count();
+            try
+            {
+                var list = repository.List().Where(x => x.UserId == userId).ToList();
+                return new Result<int>(list.Count(),true);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            
         }
 
-        public double CartTotalPrice(int userId)
+        public Result<double> CartTotalPrice(int userId)
         {
-            var total = repository.Queryable().Include(x => x.Product).Select(X => X.Product).Sum(X => X.Price);
+            try
+            {
+                var total = repository.Queryable().Include(x => x.Product).Select(X => X.Product).Sum(X => X.Price);
 
-          var  value = Math.Round(total, 2);
-            return value;
+                var value = Math.Round(total, 2);
+                return new Result<double>(value,true);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
         }
 
-        public bool RemoveCart(int productId, int userId)
+        public Result<bool> RemoveCart(int productId, int userId)
         {
-            var ent = repository.List().Where(x => x.UserId == userId&&x.ProductId==productId).FirstOrDefault();
-            if(ent!=null)repository.Remove(ent.Id);
-            return true;
+            try
+            {
+                var ent = repository.List().Where(x => x.UserId == userId && x.ProductId == productId).FirstOrDefault();
+                if (ent != null) repository.Remove(ent.Id);
+                return new Result<bool>(true,true);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            
         }
     }
 }

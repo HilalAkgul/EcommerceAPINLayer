@@ -1,12 +1,13 @@
 ﻿using System;
 using Business.Dtos;
+using Utility;
 
 namespace Business.Product
 {
 	public interface IProductService
 	{
-		List<ProductListDto>  List();
-        List<Entities.Product> CartList(int userId);
+		Result<List<ProductListDto>>  List();
+        Result<List<Entities.Product>> CartList(int userId);
     }
 }
 

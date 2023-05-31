@@ -83,3 +83,7 @@
 /Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/bin/Debug/net6.0/DAL.pdb
 /Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/bin/Debug/net6.0/Dtos.pdb
 /Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/bin/Debug/net6.0/Entities.pdb
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/bin/Debug/net6.0/Utility.dll
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/bin/Debug/net6.0/Utility.pdb
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Presentation/API/bin/Debug/net6.0/Serilog.dll

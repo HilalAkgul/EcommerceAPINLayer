@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SMyYQFvwsWJTrI56ZOtfPoab9nCtz8524PQs5v8ti7c+Tk+GY1y4tKsgYSf60Js1hIrubHNcN1FVauQUOB+Ykg==",
+  "dgSpecHash": "qcHIbRR13WMl3SQf9quFCF3aYwZ+UVsEpIind4YrqU+X3QFPvjpKPuhzMRHhlk6EnWRw9r2FgP1n9GOtwBW6hQ==",
   "success": true,
   "projectFilePath": "/Users/hilalakgul/Projects/EcommerceAPINLayer/EcommerceProjectNLayer/Business/Business/Business.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,8 @@
     "/Users/hilalakgul/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/hilalakgul/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/hilalakgul/.nuget/packages/serilog/2.12.0/serilog.2.12.0.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/hilalakgul/.nuget/packages/system.configuration.configurationmanager/5.0.0/system.configuration.configurationmanager.5.0.0.nupkg.sha512",
