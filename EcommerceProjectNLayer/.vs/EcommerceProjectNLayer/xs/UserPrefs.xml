@@ -1,21 +1,24 @@
 ﻿<Properties StartupConfiguration="{B99921D5-B464-4F8F-9451-63D0D192D064}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/DAL/Repositories/AppRepository.cs">
-    <Files>
-      <File FileName="Core/DAL/Repositories/AppRepository.cs" Line="34" Column="14" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EcommerceProjectNLayer" expanded="True" />
+          <Node name="EcommerceProjectNLayer" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="DAL" expanded="True">
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Presentation.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Presentation.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
